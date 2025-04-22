@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import ArtDirerctionAnimation from "../otherComponents/animation/artDirection";
 
 export default function ArtDirection() {
   return (
@@ -13,10 +11,8 @@ export default function ArtDirection() {
           </h3>
         </section>
 
-        {/* <section className="px-4 sm:px-12 py-4 sm:py-20">
+        <section className="px-4 sm:px-12 py-4 sm:py-20">
           <div className="bg-white rounded-full flex items-center justify-center">
-
-
             <video
               width="500"
               height="500"
@@ -29,11 +25,7 @@ export default function ArtDirection() {
               Your browser does not support the video tag.
             </video>
           </div>
-        </section> */}
-
-        <div className="">
-          <ArtDirerctionAnimation />
-        </div>
+        </section>
 
         <section className="border-t border-black flex justify-center items-center pb-12">
           <span className="px-4 sm:px-0 sm:w-[450px] pt-8">
