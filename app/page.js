@@ -14,6 +14,7 @@ import { HelloSparkles } from "@/Components/home/helloComponent";
 import LatestUpdates from "@/Components/home/latestUpdates";
 import MyExamplePage from "@/Components/otherComponents/animation/smartDevelopmentAnimation";
 import Header from "@/Components/global/header";
+import TestAnimation from "@/Components/home/testAnimation";
 
 export default function Home() {
   const [banner, setbanner] = useState(true);
@@ -36,6 +37,7 @@ export default function Home() {
         {/* <OurClients /> */}
 
         <HelloSparkles />
+        <TestAnimation />
       </div>
     </main>
   );
