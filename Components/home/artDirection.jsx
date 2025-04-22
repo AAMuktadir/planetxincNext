@@ -13,15 +13,9 @@ export default function ArtDirection() {
           </h3>
         </section>
 
-        <section className="px-4 sm:px-12 py-4 sm:py-20">
+        {/* <section className="px-4 sm:px-12 py-4 sm:py-20">
           <div className="bg-white rounded-full flex items-center justify-center">
-            {/* <Image
-              src={"/image/artDirection.png"}
-              height={500}
-              width={500}
-              alt="image"
-              className="py-2 sm:py-8"
-            /> */}
+
 
             <video
               width="500"
@@ -35,7 +29,11 @@ export default function ArtDirection() {
               Your browser does not support the video tag.
             </video>
           </div>
-        </section>
+        </section> */}
+
+        <div className="">
+          <ArtDirerctionAnimation />
+        </div>
 
         <section className="border-t border-black flex justify-center items-center pb-12">
           <span className="px-4 sm:px-0 sm:w-[450px] pt-8">
